@@ -1,0 +1,225 @@
+:root {
+--title-color: #2E2F42;
+--main-text-color: #434455;
+--second-text-color: #ffffff;
+--pressed-state: #404BBF;
+
+}
+p,h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color:#FFFFFF;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.link{
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.header-logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
+    text-transform: uppercase;
+}
+.header-logo span {
+    color: #2E2F42;
+}
+.header-menu-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+.header-menu-item:is(:hover, :focus) {
+    color: var(--pressed-state);
+}
+.header-menu {
+    color: var(--title-color);
+
+}
+.header-menu:is(:hover, :focus) {
+    color: var(--pressed-state);
+}
+.address {
+    font-style: normal;
+}
+.header-address{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    font-style: normal;
+}
+.header-address:is(:hover, :focus){
+    color: var(--pressed-state);
+}
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        text-align: center;
+
+}
+
+.hero-btn {
+       font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5; 
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        cursor: pointer;
+        text-align: center;
+        background-color: #4D5AE5;
+}
+.hero-btn:is(:hover, :focus){
+    background-color: #404BBF
+}
+
+
+.benefits-subtitle {        
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--title-color);
+}
+
+.benefits-item-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--main-text-color);
+}
+.activity {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: var(--title-color);
+        text-align: center;
+        text-transform: capitalize;
+}
+.team {
+    background-color: #F4F4FD
+}
+
+.team-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: var(--title-color);
+        text-align: center;
+        text-transform: capitalize;
+}
+
+
+
+.team-item {    background-color: #FFFFFF;}
+
+.team-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--title-color);
+}
+
+.team-item-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--main-text-color);
+}
+.footer{
+        background-color: #2E2F42;
+}
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    text-transform: uppercase;
+}
+.footer-logo span{
+    color: #F4F4FD;
+}
+.footer-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+}
+
+.categories-btn { 
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #4D5AE5;
+        cursor: pointer;
+        background-color: #F4F4FD;
+    }
+.categories-btn:is(:hover, :focus) {
+    color: #FFFFFF;
+    background-color:#404BBF;
+}
+
+.product-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--title-color);
+}
+
+.product-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--main-text-color);
+}
+
