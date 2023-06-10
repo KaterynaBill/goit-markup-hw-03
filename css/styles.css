@@ -275,6 +275,9 @@ padding: 188px 0;
         color: #F4F4FD;
         max-width: 264px;
 }
+.categories-main {
+    visibility: hidden;
+}
 .categories {
     padding-top: 96px;
     padding-bottom: 120px;
@@ -283,6 +286,7 @@ padding: 188px 0;
     display: flex;
     gap: 24px;
     justify-content: center;
+    margin-bottom: 72px;
 }
 .categories-btn { 
         font-family: 'Roboto', sans-serif;
@@ -298,6 +302,11 @@ padding: 188px 0;
         border-radius: 4px;
         padding: 12px 24px;
     }
+.categories-btn:is(:hover, :focus){
+    border: 1px solid transparen;
+}
+
+
 .categories-btn:is(:hover, :focus) {
     color: #FFFFFF;
     background-color:#404BBF;
@@ -307,6 +316,7 @@ padding: 188px 0;
     flex-wrap: wrap;
     gap: 24px;
     padding-top: 72px;
+    row-gap: 48px;
 }
 .categoties-link {
     width: calc((100% - 24px * 2) / 3);
