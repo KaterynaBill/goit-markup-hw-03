@@ -79,8 +79,6 @@ justify-content:space-between;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--title-color);
-    padding-top: 24px;
-    padding-bottom: 24px;
 
 }
 .header-menu-item:is(:hover, :focus) {
@@ -88,6 +86,8 @@ justify-content:space-between;
 }
 .header-menu {
     color: var(--title-color);
+    padding-top: 24px;
+    padding-bottom: 24px;
 
 }
 .header-menu:is(:hover, :focus) {
